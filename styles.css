@@ -1,0 +1,42 @@
+body {
+    font-family: 'Montserrat', sans-serif; 
+}
+div #carouselExample{
+    height:100vh;
+}
+.m-item {
+    height: 750px;
+    align-items: center;
+}
+.m-img {
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.9);
+} 
+.carousel-caption h5 {
+    color: #090909;
+    width: 70%;
+    background-color: transparent !important; 
+}
+.carousel-caption h2 {
+    color: #8c52ff;
+    width: 70%;
+    background-color: transparent !important; 
+}
+.carousel-caption h1 {
+    color: #8c52ff;
+    background-color: transparent !important; 
+}
+.image-area {
+    background-color: #e8ecef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-area img{
+    width: 100%;
+}
+.m-btn {
+    background-color: #8c52ff;
+}
+    
