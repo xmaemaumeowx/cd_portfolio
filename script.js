@@ -7,7 +7,7 @@ function submitForm() {
   const message = document.getElementById("message").value;
 
   // Display success message
-  alert("Form submitted successfully!");
+  alert("Message sent successfully!");
 
   // Clear form fields 
   document.getElementById("firstName").value = "";
