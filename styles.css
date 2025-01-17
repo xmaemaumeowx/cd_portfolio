@@ -4,6 +4,9 @@ body {
 div #carouselExample{
     height:100vh;
 }
+.icon-container {
+  float: right; /* Float the icon to the right */
+}
 .m-item {
     height: 750px;
     align-items: center;
@@ -36,7 +39,9 @@ div #carouselExample{
 .image-area img{
     width: 100%;
 }
-
+#about p, ul, li {
+  text-align: left;
+}
 .row {
     margin: 0 auto;
 }
