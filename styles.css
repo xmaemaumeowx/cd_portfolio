@@ -4,9 +4,6 @@ body {
 div #carouselExample{
     height:100vh;
 }
-.icon-container {
-  float: right; /* Float the icon to the right */
-}
 .m-item {
     height: 750px;
     align-items: center;
@@ -16,18 +13,15 @@ div #carouselExample{
     object-fit: cover;
     filter: brightness(0.9);
 } 
+
 .carousel-caption h5 {
     color: #090909;
-    width: 70%;
+    font-size: 2rem;
     background-color: transparent !important; 
 }
 .carousel-caption h2 {
     color: #8c52ff;
-    width: 70%;
-    background-color: transparent !important; 
-}
-.carousel-caption h1 {
-    color: #8c52ff;
+    font-size: 5rem;
     background-color: transparent !important; 
 }
 .image-area {
@@ -45,37 +39,28 @@ div #carouselExample{
 .row {
     margin: 0 auto;
 }
-
+.toast-body p {
+  color: #090909;
+}
 .form-group {
     margin-bottom: 15px;
     text-align: left;
-  }
+}
   
-  .form-control {
+.form-control {
     border: 1px solid #ccc;
     border-radius: 3px;
     padding: 10px;
     width: 100%;
     box-sizing: border-box; /* Ensure width includes padding and border */
-  }
-  
-  .btn-primary {
-    background-color: #8c52ff !important;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 3px;
-    cursor: pointer;
-    display: block; /* Make button full width on smaller screens */
-    width: 100%;
-    margin-top: 15px; 
-  }
-  
-  .m-btn {
-    margin-top: 15px;
+}
+.btn-primary.m-btn {
+    position:relative;
     background-color: #8c52ff;
-  }
-  
+    bottom: 10px; /* elevation */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* shadow*/
+}
+ 
   @media screen and (min-width: 768px) { 
     .btn-primary {
       display: inline-block; /* Make button inline on larger screens */
